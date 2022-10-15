@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_pattern">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/normal_margin"
+        android:background="@color/white"
+        android:padding="@dimen/normal_margin"
+        app:cardCornerRadius="@dimen/normal_margin"
+        app:cardElevation="@dimen/small_margin">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/normal_margin"
+            android:orientation="vertical"
+            android:padding="@dimen/normal_margin">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/normal_margin"
+                android:text="Insta Save"
+                android:textAlignment="center"
+                android:textSize="@dimen/big_font"
+                android:textStyle="bold" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/large_margin"
+                android:layout_marginEnd="@dimen/large_margin"
+                android:minHeight="48dp"
+                android:text="@string/login_to_instagram"
+                android:textColor="@color/white"
+                android:textSize="@dimen/normal_font"
+                android:textStyle="bold"
+                app:icon="@drawable/ic_instagram"
+                app:iconGravity="textEnd" />
+
+<!--            <com.google.android.material.button.MaterialButton-->
+<!--                android:id="@+id/btn_skip"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="@dimen/large_margin"-->
+<!--                android:layout_marginEnd="@dimen/large_margin"-->
+<!--                android:minHeight="48dp"-->
+<!--                android:text="@string/continue_without_login"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textColor="@color/gray"-->
+<!--                android:textSize="@dimen/normal_font"-->
+<!--                android:textStyle="bold"-->
+<!--                app:backgroundTint="@color/white"-->
+<!--                app:rippleColor="@color/gray"-->
+<!--                app:strokeColor="@color/prime_blue"-->
+<!--                app:strokeWidth="1dp" />-->
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+<!--    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton-->
+<!--        android:id="@+id/floating_help"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_above="@id/textview_copyright"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginStart="@dimen/normal_margin"-->
+<!--        android:layout_marginTop="@dimen/normal_margin"-->
+<!--        android:layout_marginEnd="@dimen/normal_margin"-->
+<!--        android:layout_marginBottom="@dimen/normal_margin"-->
+<!--        android:text="@string/need_help"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textStyle="bold"-->
+<!--        app:backgroundTint="@color/prime_blue"-->
+<!--        app:icon="@drawable/ic_help"-->
+<!--        app:iconGravity="end"-->
+<!--        app:iconPadding="0dp"-->
+<!--        app:iconTint="@color/white" />-->
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@id/textview_copyright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/prime_blue"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_source_code" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textview_copyright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/developed_by_murphy_apps"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edittext_url"
+        style="@style/editTextTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/normal_margin"
+        android:layout_marginTop="@dimen/normal_margin"
+        android:layout_marginEnd="@dimen/normal_margin"
+        android:layout_marginBottom="@dimen/normal_margin"
+        android:hint="@string/url_to_profile_or_post"
+        android:inputType="textUri"
+        android:minHeight="@dimen/standard_height" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linear_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext_url"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_download"
+            style="@style/buttonThemeMain"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_download"
+            android:paddingTop="@dimen/small_margin"
+            android:text="@string/download" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_posts"
+            style="@style/buttonThemeAlt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_paste"
+            android:paddingTop="@dimen/small_margin"
+            android:text="@string/paste" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>

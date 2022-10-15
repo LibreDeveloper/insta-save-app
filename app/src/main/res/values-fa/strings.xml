@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">اینستا سیو</string>
+    <string name="murphyapps">مورفی اپس</string>
+    <string name="continue_without_login">ادامه بدون لاگین به اینستا</string>
+    <string name="login_to_instagram">ورود با حساب اینستاگرام</string>
+    <string name="developed_by_murphy_apps">توسعه یافته توسط مورفی اپس</string>
+    <string name="need_help">راهنما</string>
+    <string name="my_account">حساب من</string>
+    <string name="about_app">درباره برنامه</string>
+    <string name="logout">خروج از حساب</string>
+    <string name="url_to_profile_or_post">لینک پست یا پروفایل</string>
+    <string name="how_to">آموزش استفاده</string>
+    <string name="preview">پیش نمایش</string>
+    <string name="download">دانلود</string>
+    <string name="login_to_your_account">به اکانت خود وارد شوید</string>
+    <string name="biography">بیوگرافی👇</string>
+    <string name="caption">کپشن👇</string>
+    <string name="copy_bio">کپی بیوگرافی</string>
+    <string name="copy_caption">کپی کپشن</string>
+    <string name="please_wait">لطفا صبر کنید</string>
+    <string name="copied">کپی شد</string>
+    <string name="example_username_instagram">مثال نام کاربری: instagram</string>
+    <string name="save_posts">ذخیره پست</string>
+    <string name="save_story">ذخیره استوری</string>
+    <string name="save_highlight">ذخیره هایلایت</string>
+    <string name="enter_url">لطفا یک لینک وارد کنید!</string>
+    <string name="invalid_url">لطفا یک لینک معتبر وارد کنید!</string>
+    <string name="story_download">برای دانلود استوری یا عکس پروفایل، ایدی کاربر یا لینک پروفایل را وارد کنید</string>
+    <string name="username">ایدی اکانت</string>
+    <string name="post_download">برای دانلود پست ها لینک آن را در باکس پایین کپی کنید</string>
+    <string name="enter_username">یک ایدی وارد کنید!</string>
+    <string name="downloading">در حال دانلود…</string>
+    <string name="coming_soon">به زودی</string>
+    <string name="login_notice">به دلیل محدودیت های اینستاگرام برای دانلود محتوا ابتدا باید وارد اکانت خود شوید، توجه کنید شما از طریق وبسایت رسمی اینستاگرام وارد اکانت خود میشوید، اینستا یا هیچ کس دیگری به اطلاعات لاگین شما دسترسی ندارد. !! لطفا قبل از لاگین فیلترشکن خودتون رو خاموش کنید !!</string>
+    <string name="login_notice_title">لطفا بخوانید!</string>
+    <string name="login_accept">باشه متوجه شدم!</string>
+    <string name="redirect_message">هدایت به اینستاگرام</string>
+    <string name="check_permission">اینستا سیو برای ذخیره دانلود های شما برو روی دستگاهتان نیاز به دسترسی حافظه دارد، لطفا درخواست دسترسی را قبول کنید.</string>
+    <string name="accept_permission">باشه</string>
+    <string name="title_permission">لطفا بخوانید!</string>
+    <string name="paste">Paste</string>
+    <string name="login_dialog" />
+    <string name="agree_dialog" />
+    <string name="deny_dialog" />
+    <string name="login_info" />
+</resources>

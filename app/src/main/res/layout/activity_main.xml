@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/prime_blue">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginEnd="@dimen/normal_margin"
+            android:drawableStart="@drawable/ic_instagram"
+            android:drawablePadding="@dimen/small_margin"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/large_font"
+            android:textStyle="bold" />
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/main_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_main">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_save_post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_posts"
+            android:icon="@drawable/ic_picture"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_save_story"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_story"
+            android:icon="@drawable/ic_story"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_save_highlight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_highlight"
+            android:icon="@drawable/ic_highlight"/>
+    </com.google.android.material.tabs.TabLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/main_tabs" />
+
+<!--    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton-->
+<!--        android:id="@+id/floating_help_main"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="@dimen/normal_margin"-->
+<!--        android:layout_marginTop="@dimen/normal_margin"-->
+<!--        android:layout_marginEnd="@dimen/normal_margin"-->
+<!--        android:layout_marginBottom="@dimen/normal_margin"-->
+<!--        android:text="@string/how_to"-->
+<!--        android:textAlignment="center"-->
+<!--        app:backgroundTint="@color/dark_blue"-->
+<!--        app:icon="@drawable/ic_help"-->
+<!--        app:iconGravity="textStart" />-->
+
+</RelativeLayout>
