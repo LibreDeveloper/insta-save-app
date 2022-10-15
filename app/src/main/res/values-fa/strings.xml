@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">اینستا سیو</string>
-    <string name="murphyapps">مورفی اپس</string>
+    <string name="murphyspider">مورفی اپس</string>
     <string name="continue_without_login">ادامه بدون لاگین به اینستا</string>
     <string name="login_to_instagram">ورود با حساب اینستاگرام</string>
     <string name="developed_by_murphy_apps">توسعه یافته توسط مورفی اپس</string>

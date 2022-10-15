@@ -7,7 +7,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.murphyapps.instasave"
+        applicationId "com.murphyspider.instasave"
         minSdk 23
         targetSdk 33
         versionCode 3
